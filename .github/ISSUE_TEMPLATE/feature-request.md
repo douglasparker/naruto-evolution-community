@@ -1,8 +1,8 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Feature Request
+about: Create a feature request to suggest improvements and new features for the game.
 title: ''
-labels: ''
+labels: 'Type: Feature Request'
 assignees: ''
 
 ---
