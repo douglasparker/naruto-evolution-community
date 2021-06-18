@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Official Discord
-    url: https://discord.gg/URcN6cc
-    about: Kick back and hangout with the community on our official Discord server.
+  - name: Community Support
+    url: https://github.com/lavenblade/naruto-evolution-community/discussions/categories/4-community-support
+    about: Get the answers to your questions. Give back to your community.
+  - name: Support Requests
+    url: https://github.com/lavenblade/naruto-evolution-community/discussions/categories/5-support-requests
+    about: Seek help and support from an experienced game Moderator or Administrator.
