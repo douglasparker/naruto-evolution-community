@@ -7,24 +7,32 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Bug Report:**
+*Please be as descriptive as possible.*
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**Steps to Reproduce:**
+*Steps to reproduce the undesired behavior.*
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Expected Behavior:**
+*Please explain what the desired behavior is.*
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**BYOND Server Version:**
+*e.g. 513.1542*
 
-**BYOND version:**
-[e.g. 513.1542]
+**BYOND Client Version:**
+*e.g. 513.1542*
 
-**Additional context**
-Add any other context about the problem here.
+**Error Logs / Error Messages:**
+```dm
+[Copy and paste error messages or drag and drop error logs here.]
+```
+
+**Screenshots:**
+*Copy and paste or drag and drop images here to upload screenshots.*
+
+**Additional Information:**
+*Please provide any additional information that may be of help to us in order reproduce this bug.*
