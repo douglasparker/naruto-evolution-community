@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Community Support
-    url: https://github.com/lavenblade/naruto-evolution-community/discussions/categories/4-community-support
-    about: Get the answers to your questions. Give back to your community.
-  - name: Support Requests
-    url: https://github.com/lavenblade/naruto-evolution-community/discussions/categories/5-support-requests
-    about: Seek help and support from an experienced game Moderator or Administrator.
+  - name: Community Forums
+    url: https://community.narutoevolution.com
+    about: Join our community forums!
+  - name: Community Wiki
+    url: https://wiki.narutoevolution.com
+    about: Have a look at the Naruto Evolution Wiki for more game related information.
