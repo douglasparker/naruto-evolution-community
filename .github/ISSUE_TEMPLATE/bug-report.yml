@@ -5,52 +5,52 @@ labels: 'Type: Bug'
 assignees: ''
 body:
   - type: textarea
-  id: bug-report
-  attributes:
-    label: Bug Report
-    description: Please be as descriptive as possible.
-    value: |
-      **Steps to Reproduce:**
-      *Steps to reproduce the undesired behavior.*
-      1. Go to '...'
-      2. Click on '....'
-      3. Scroll down to '....'
-      4. See error
-  validations:
-    required: true
+    id: bug-report
+    attributes:
+      label: Bug Report
+      description: Please be as descriptive as possible.
+      value: |
+        **Steps to Reproduce:**
+        *Steps to reproduce the undesired behavior.*
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
 
   - type: textarea
-  id: expected-behavior
-  attributes:
-    label: Expected Behavior
-    description: Please explain what the desired behavior is.
-  validations:
-    required: true
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Please explain what the desired behavior is.
+    validations:
+      required: true
 
   - type: dropdown
-  id: version
-  attributes:
-    label: BYOND Server Version
-    description: What version of BYOND is running on the server?
-    options:
-      - Unknown
-      - 514
-      - 514.1566
-      - 515
-  validations:
-    required: true
+    id: version
+    attributes:
+      label: BYOND Server Version
+      description: What version of BYOND is running on the server?
+      options:
+        - Unknown
+        - 514
+        - 514.1566
+        - 515
+    validations:
+      required: true
 
   - type: dropdown
-  id: version
-  attributes:
-    label: BYOND Client Version
-    description: What version of BYOND is running on the client?
-    options:
-      - 514
-      - 514.1566
-      - 515
-  validations:
-    required: true
+    id: version
+    attributes:
+      label: BYOND Client Version
+      description: What version of BYOND is running on the client?
+      options:
+        - 514
+        - 514.1566
+        - 515
+    validations:
+      required: true
 
 
   - type: textarea
@@ -68,6 +68,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-
-  **Screenshots:**
-  *Copy and paste or drag and drop images here to upload screenshots.*
