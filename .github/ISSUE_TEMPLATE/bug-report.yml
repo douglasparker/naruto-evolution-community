@@ -28,7 +28,7 @@ body:
     required: true
 
 - type: dropdown
-  id: version
+  id: server-version
   attributes:
     label: BYOND Server Version
     description: What version of BYOND is running on the server?
@@ -41,7 +41,7 @@ body:
     required: true
 
 - type: dropdown
-  id: version
+  id: client-version
   attributes:
     label: BYOND Client Version
     description: What version of BYOND is running on the client?
