@@ -8,14 +8,7 @@ body:
   id: bug-report
   attributes:
     label: Bug Report
-    description: Please be as descriptive as possible.
-    value: |
-      **Steps to Reproduce:**
-      *Steps to reproduce the undesired behavior.*
-      1. Go to '...'
-      2. Click on '....'
-      3. Scroll down to '....'
-      4. See error
+    description: Please be as descriptive as possible in your bug report.
   validations:
     required: true
 
@@ -27,70 +20,48 @@ body:
   validations:
     required: true
 
-- type: dropdown
-  id: server-version
+- type: textarea
+  id: steps-to-reproduce
   attributes:
-    label: BYOND Server Version
-    description: What version of BYOND is running on the server?
-    options:
-      - 514
-      - 514.1566
-      - 515
-      - Other
-
-- type: input
-  id: server-version-other
-  attributes:
-    label: BYOND Server Version (Other)
-    description: What version of BYOND is running on the server?
-    placeholder: "514.1566"
-
-- type: dropdown
-  id: client-version
-  attributes:
-    label: BYOND Client Version
-    description: What version of BYOND is running on the client?
-    options:
-      - 514
-      - 514.1566
-      - 515
+    label: Steps to Reproduce
+    description: Please provide step by step instructions on what we need to do to reproduce this bug.
   validations:
     required: true
 
 - type: input
-  id: client-version-other
+  id: server-version
   attributes:
-    label: BYOND Client Version (Other)
+    label: BYOND Server Version
+    description: What version of BYOND is running on the server?
+    placeholder: "514.1566"
+
+- type: input
+  id: client-version
+  attributes:
+    label: BYOND Client Version
     description: What version of BYOND is running on the client?
     placeholder: "514.1566"
+  validations:
+    required: true
 
 - type: textarea
   id: logs
   attributes:
     label: Error Logs
-    description: Copy and paste any relavent error messages. This will be automatically formatted into code, so no need for backticks.
+    description: Drag and drop an error log or copy and paste any relavent error messages.
     render: shell
 
 - type: textarea
   id: screenshots
   attributes:
     label: Screenshots
-    description: Copy and paste any relavent screenshots.
-
-- type: checkboxes
-  id: code-of-conduct
-  attributes:
-    label: Code of Conduct
-    description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md)
-    options:
-      - label: I agree to follow this project's Code of Conduct
-        required: true
+    description: Drag and drop or copy and paste any relavent screenshots.
 
 - type: checkboxes
   id: form-completion
   attributes:
-    label: Form Completion
-    description: By submitting this issue, you confirm that this form was completed in full and is accurate to the best of your knowledge.
+    label: Form Completion and Accuracy
+    description: By submitting this issue, you confirm that this form has been completed in full and is accurate to the best of your knowledge.
     options:
-      - label: I confirm that this form was completed in full and is accurate to the best of my knowledge.
+      - label: I confirm that this form has been completed in full and is accurate to the best of my knowledge.
         required: true
