@@ -43,7 +43,7 @@ body:
   attributes:
     label: BYOND Server Version (Other)
     description: What version of BYOND is running on the server?
-    placeholder: 514.1566
+    placeholder: "514.1566"
 
 - type: dropdown
   id: client-version
@@ -62,7 +62,7 @@ body:
   attributes:
     label: BYOND Client Version (Other)
     description: What version of BYOND is running on the client?
-    placeholder: 514.1566
+    placeholder: "514.1566"
 
 - type: textarea
   id: logs
