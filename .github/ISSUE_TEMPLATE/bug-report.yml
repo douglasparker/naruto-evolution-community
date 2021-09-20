@@ -1,9 +1,8 @@
 name: Bug Report
-about: Create a bug report to help us improve the game.
+description: Create a bug report to help us improve the game.
 title: ''
 labels: 'Type: Bug'
 assignees: ''
-
 body:
   - type: textarea
   id: bug-report
