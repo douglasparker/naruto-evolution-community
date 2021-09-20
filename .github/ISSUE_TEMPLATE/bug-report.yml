@@ -48,7 +48,6 @@ body:
   attributes:
     label: Error Logs
     description: Drag and drop an error log or copy and paste any relavent error messages.
-    render: shell
 
 - type: textarea
   id: screenshots
