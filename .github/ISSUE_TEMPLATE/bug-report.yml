@@ -33,12 +33,17 @@ body:
     label: BYOND Server Version
     description: What version of BYOND is running on the server?
     options:
-      - Unknown
       - 514
       - 514.1566
       - 515
-  validations:
-    required: true
+      - Other
+
+- type: input
+  id: server-version-other
+  attributes:
+    label: BYOND Server Version (Other)
+    description: What version of BYOND is running on the server?
+    placeholder: 514.1566
 
 - type: dropdown
   id: client-version
@@ -52,6 +57,12 @@ body:
   validations:
     required: true
 
+- type: input
+  id: client-version-other
+  attributes:
+    label: BYOND Client Version (Other)
+    description: What version of BYOND is running on the client?
+    placeholder: 514.1566
 
 - type: textarea
   id: logs
@@ -60,11 +71,26 @@ body:
     description: Copy and paste any relavent error messages. This will be automatically formatted into code, so no need for backticks.
     render: shell
 
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Screenshots
+    description: Copy and paste any relavent screenshots.
+
 - type: checkboxes
-  id: terms
+  id: code-of-conduct
   attributes:
     label: Code of Conduct
     description: By submitting this issue, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md)
     options:
       - label: I agree to follow this project's Code of Conduct
+        required: true
+
+- type: checkboxes
+  id: form-completion
+  attributes:
+    label: Form Completion
+    description: By submitting this issue, you confirm that this form was completed in full and is accurate to the best of your knowledge.
+    options:
+      - label: I confirm that this form was completed in full and is accurate to the best of my knowledge.
         required: true
