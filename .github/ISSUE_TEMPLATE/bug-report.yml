@@ -28,6 +28,13 @@ body:
     required: true
 
 - type: input
+  id: game-version
+  attributes:
+    label: Game Version
+    description: What version of Naruto Evolution is running on the server?
+    placeholder: "2.4.14"
+
+- type: input
   id: server-version
   attributes:
     label: BYOND Server Version
